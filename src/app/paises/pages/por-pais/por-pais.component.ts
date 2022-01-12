@@ -12,9 +12,9 @@ import { Country } from '../../interfaces/pais.interface';
 })
 export class PorPaisComponent {
 
-  termino: string = '';
-  hayError: boolean = false;
-  paises: Country[] = [];
+  termino : string    = '';
+  hayError: boolean   = false;
+  paises  : Country[] = [];
 
   constructor(
     private _paisService: PaisService
